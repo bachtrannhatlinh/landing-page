@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "time": "2023.08.01",
+    "name": "lorem",
+    "url": "../images/list-card/DRG_Screenshot_007.png"
+  },
+  {
+    "id": 2,
+    "time": "2023.08.02",
+    "name": "lorem",
+    "url": "../images/list-card/Free-Fire.png"
+  },
+  {
+    "id": 3,
+    "time": "2023.08.03",
+    "name": "lorem",
+    "url": "../images/list-card/top-web.png"
+  },
+  {
+    "id": 4,
+    "time": "2023.08.04",
+    "name": "lorem",
+    "url": "../images/list-card/zombie-surviva.png"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "date": "2023.08.01",
+    "name": "Bluse Tech NEW　一時アップロード１。。。",
+    "categorie01": "プレスリリース",
+    "url": "../images/list-card/DRG_Screenshot_007.png"
+  },
+  {
+    "id": 2,
+    "date": "2023.08.02",
+    "name": "Bluse Tech NEW　一時アップロード２。。。",
+    "categorie01": "プレスリリース",
+    "url": "../images/list-card/Free-Fire.png"
+  },
+  {
+    "id": 3,
+    "date": "2023.08.03",
+    "name": "Bluse Tech NEW　一時アップロード３。。。",
+    "categorie01": "お知らせ",
+    "url": "../images/list-card/top-web.png"
+  },
+  {
+    "id": 4,
+    "date": "2023.08.04",
+    "name": "Bluse Tech NEW　一時アップロード４。。。",
+    "categorie01": "サービスニュース",
+    "url": "../images/list-card/zombie-surviva.png"
+  }
+]

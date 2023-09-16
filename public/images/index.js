@@ -1,0 +1,5 @@
+export { default as drg } from './list-card/DRG_Screenshot_007.png'
+export { default as freeFire } from './list-card/Free-Fire.png'
+export { default as topWeb } from './list-card/top-web.png'
+export { default as zombieSurviva } from './list-card/zombie-surviva.png'
+export { default as user } from './list-card/selfie.png'

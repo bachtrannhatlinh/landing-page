@@ -1,0 +1,50 @@
+#card-item {
+  display: block;
+  background: #242731;
+  height: 300px;
+  width: 25%;
+  margin-left: 20px;
+  border-radius: 10%;
+  overflow: hidden;
+
+  .img {
+    img {
+      height: 150px;
+      width: 100%;
+    }
+  }
+
+  .content {
+    padding: 20px;
+
+    h5 {
+      text-align: left;
+    }
+
+    .content-des {
+      display: flex;
+      margin-top: 20px;
+
+      .avatar {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: #A0D7E7;
+
+        img {
+          height: 80%;
+          width: 80%;
+        }
+      }
+
+      .des-user {
+        text-align: left;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+#card-item:nth-child(1) {
+  margin-left: 0px;
+}
