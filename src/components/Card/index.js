@@ -20,10 +20,10 @@ export default function Card({ item }) {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <div>live</div>
         <div>4 2K watching</div>
-      </div>
+      </div> */}
     </div>
   )
 }

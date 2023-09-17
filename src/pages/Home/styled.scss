@@ -64,7 +64,7 @@ aside {
     }
 
     .block-underfind {
-      height: 860px;
+      height: 1560px;
     }
 
     li {
@@ -102,7 +102,6 @@ aside {
 
 article {
   grid-area: content;
-  // border-left: solid 1px #2F3037;
 }
 
 header {
@@ -143,15 +142,14 @@ header {
 #content {
   padding: 50px 30px;
 
-  .search {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .list-card {
-    .search {
+    .list-card-title {
       display: flex;
       justify-content: space-between;
+    }
+
+    .list-card-content {
+      display: flex;
     }
   }
 
@@ -377,6 +375,54 @@ header {
 
     h2 {
       text-align: left;
+    }
+
+    .list-card-content {
+      display: flex;
+    }
+  }
+}
+
+
+@media (max-width: 500px) {
+  #content {
+    .list-card {
+      .list-card-content {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .poular-categories {
+      .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "poular-categories-left"
+          "poular-categories-right-one"
+          "poular-categories-right-two"
+          "poular-categories-right-three"
+        ;
+
+        .poular-categories-left {
+          height: 300px;
+          margin-right: 0px;
+          margin-bottom: 20px;
+
+          .content-left {
+            position: absolute;
+            top: 60%;
+            left: 3%;
+          }
+        }
+      }
+    }
+
+    .recommended {
+      .list-card-content {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
     }
   }
 }

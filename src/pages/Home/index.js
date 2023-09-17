@@ -161,11 +161,11 @@ function Home() {
         </section>
         <section id='content'>
           <section className='list-card'>
-            <div className='search'>
+            <div className='list-card-title'>
               <h1>Live Channels</h1>
               <div>Popular</div>
             </div>
-            <div className='d-flex mt-4'>
+            <div className='mt-4 list-card-content'>
               {
                 listCard?.map(item => {
                   return (
@@ -246,7 +246,7 @@ function Home() {
               <h2>Recommended Videos</h2>
               <div>Most Recent</div>
             </div>
-            <div className='d-flex mt-4'>
+            <div className='mt-4 list-card-content'>
               {
                 listCard?.map(item => {
                   return (
