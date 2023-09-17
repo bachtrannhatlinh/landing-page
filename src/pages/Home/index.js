@@ -124,9 +124,10 @@ function Home() {
       </aside>
       <article>
         <header className='d-flex justify-content-between align-items-center'>
-          <div>
+          {/* todo dropdown */}
+          {/* <div>
             Browse
-          </div>
+          </div> */}
           <div className='search'>
             <img src={search} />
             <input type="text" class="form-control" placeholder="Search Everything" aria-label="Username" aria-describedby="basic-addon1" />
@@ -163,7 +164,8 @@ function Home() {
           <section className='list-card'>
             <div className='list-card-title'>
               <h1>Live Channels</h1>
-              <div>Popular</div>
+              {/* todo dropdown */}
+              {/* <div>Popular</div> */}
             </div>
             <div className='mt-4 list-card-content'>
               {

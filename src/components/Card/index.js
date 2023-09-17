@@ -20,6 +20,7 @@ export default function Card({ item }) {
           </div>
         </div>
       </div>
+      {/* todo status card */}
       {/* <div>
         <div>live</div>
         <div>4 2K watching</div>
